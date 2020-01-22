@@ -1,0 +1,428 @@
+State box without decision and conditional box is
+A.asm block
+B.defined block
+C.simple block
+D.both a and b
+ANSWER: C
+
+
+ASM chart resembles to
+A.map
+B.data
+C.flowchart
+D.operation
+ANSWER: C
+
+Control sequence's state is indicated by
+A.state box
+B.decision box
+C.data box
+D. conditional box
+ANSWER: A
+
+If system is performing no function then it is in
+A.clear state
+B.initial state
+C.enable state
+D.reset state
+ANSWER: B
+
+Second level of design with mux has register holding
+A.present state
+B.input
+C.next state
+D.output
+ANSWER: A
+
+ASM chart has
+A.4 exits
+B.3 exits
+C.2 exits
+D.any no exits
+ANSWER: D
+
+All inputs are synchronized with
+A.master clock
+B.clock pulses
+C.counter
+D.latch
+ANSWER: B
+
+In method of one flipflop per state no of flip-flops set to 1 is/are
+A.1
+B.2
+C.3
+D.4
+ANSWER: A
+
+One that is not present in list of state table is
+A.present state
+B.input
+C.next state
+D.previous state
+ANSWER: D
+
+For going to next state flipflop is set to
+A.1
+B.0
+C.y
+D.dont cares
+ANSWER: A
+
+Change of state in ASM chart is performed in
+A.control logic
+B.slave clock
+C.metadata
+D.processor
+ANSWER: A
+
+Difference in conventional flowchart and asm chart lies in
+A.master clock
+B.flow
+C.time relationship
+D.clock
+ANSWER: C
+
+Which among the following is pre-defined in the standard package as one-dimensional array type comprising each element of BIT type?
+A. Bit type
+B. Bit_vector type
+C. Boolean type
+D. All of the above
+ANSWER: B
+
+If the declarative part in the architecture of a half adder is as below
+   component XOR2
+   port (X,Y:in BIT;z: out BIT);
+   end component
+   component AND2
+   port (L,M:in BIT;z:out BIT);
+   end component
+   Then what kind of architecture is it ?
+A.behavourial
+B.structural
+C.dataflow
+D.none of these 
+ANSWER: B
+
+What is the symbol used for signal assignment?
+A.== 
+B.= 
+C.:= 
+D.<= 
+ANSWER: D
+
+What cannot be defined within process units?
+A.signal
+B.variables
+C.constants 
+D.functions 
+ANSWER: A
+ 
+Where should you define the signal clock in a process?
+A.process declaration
+B.list of sequential statement 
+C.sensitivity list
+D.nowhere 
+ANSWER: C
+
+FF_PROCESS: process (CLK, CLEAR)
+     begin
+         if (CLEAR = '1') then 
+             Q <= '0';
+        elsif (CLK'event and CLK = '1') then 
+             Q <= D;
+        end if;
+     end process;
+   The above code is the process for which flip flop?
+A.T-flip flop
+B.D-flip flop
+C.Latch
+D.None of the above 
+ANSWER: B
+
+How many architectures can be associated with an entity ?
+A.only one
+B.three
+C.more than one
+D.none 
+ANSWER: C
+
+In vhdl a digital system is modeled as
+A.module
+B.entity
+C.process
+D.all of the above
+ANSWER: A
+
+Among the VHDL features, which language statements are executed at the same time in parallel flow?
+A. Concurrent
+B. Sequential
+C. Net-list
+D. Test-bench
+ANSWER: A
+
+HDL stands for ______
+A.Hardware decision Language
+B.Hardware description Language
+C.Hard description Language
+D.None
+ANSWER: B
+
+The different data objects in VHDL are _______
+A.file,signal,variable,constant
+B.array,composite,scalar,attribute
+C.variable,attribute
+D.both (A) and (B)
+ANSWER: A
+
+In VHDL the std_logic type is defined as
+A.in a header file
+B.in the relevant IEEE File
+C.in the entity declaration
+D.None of above
+ANSWER: B
+
+Bit and Bit vector are specified in IEEE____
+A.1264
+B.1164
+C.1564
+D.1664
+ANSWER: B
+
+The __________ symbol is used for variable assignment.
+A. =
+B. <=
+C. :=
+D. =>
+ANSWER: C
+
+A VHDL can contain __________
+A.one entity
+B.More than one entity
+C.No Entity
+D. None of above
+ANSWER: B
+
+An architecture always decribes the ________
+A. Behaviour of entity
+B. Flow of entity
+C. both (A) and (B)
+D. None of above
+ANSWER: C
+
+In VHDL, which object/s is/are used to connect entities together for the model formation?
+A. Constant 
+B. Variable
+C. Signal
+D. All of the above
+ANSWER: C
+
+Which among the following is pre-defined in the standard package as one-dimensional array type comprising each element of BIT type?
+A. Bit type
+B. Bit_vector type
+C. Boolean type
+D. All of the above
+ANSWER: B
+
+In VHDL, sequential statements are defined in the
+A. architecture
+B. Process
+C. Pacakge
+D. All of above.
+ANSWER: B
+
+Component declaration is used in_________
+A.Behavioural modeling
+B.Structural Modeling
+C.Dataflow modeling
+D.All of above
+ANSWER: B
+
+The following architecture is an example of____________
+    architecture D1 of NAND2 is
+      begin 
+        Z<= A and B;
+      end D1;
+A. Structural
+B. Dataflow
+C. Behavioural
+D. none of above.
+ANSWER: B
+
+The content of a simple programmable logic device (PLD) consists of:
+A.   thousands of basic logic gates and advanced sequential          
+     Logic functions
+B.   advanced sequential logic functions
+C.   thousands of basic logic gates
+D.   fuse-link arrays
+ANSWER: A
+
+Which type of PLD should be used to program basic logic functions?
+A.   PLA
+B.   PAL
+C.   SLD
+D.   CPLD
+ANSWER: B
+
+PLAs, CPLDs, and FPGAs are all which type of device?
+A.   SRAM
+B.   EPROM
+C.   PLD
+D.   SLD
+ANSWER: C
+
+Once a PAL has been programmed:
+A.   its logic capacity is lost
+B.   its outputs are only active HIGHs
+C.   its outputs are only active LOWs
+D.   it cannot be reprogrammed.
+ANSWER: D
+
+The complex programmable logic device (CPLD) contains several PLD blocks and:
+A.   field-programmable switches
+B.   a global interconnection matrix
+C.   AND/OR arrays
+D.   a language compiler
+ANSWER: B
+
+The difference between a PLA and a PAL is:
+A.   the PAL has more possible product terms than the PLA
+B.   the PLA has a programmable OR plane and a programmable AND plane, while the PAL only has a programmable AND plane
+C.   the PAL has a programmable OR plane and a programmable AND plane, while the PLA only has a programmable AND plane
+D.   PALs and PLAs are the same thing.
+ANSWER: B
+
+What do the Programmable Logic Devices (PLDs) designed specially for the combinational circuits comprise?
+A. Only gates
+B. Only flip flops
+C. Both a and b
+D. None of the above
+ANSWER: A
+
+Which among the following statement/s is/are not an/the advantage/s of Programmable Logic Devices (PLDs)?
+a. Short design cycle
+b. Increased space requirement
+c. Increased switching speed
+d. All of the above
+ANSWER: B
+
+How many logic gates can be implemented in the circuit by complex programmable logic devices (CPLDs)?
+A. 10
+B. 100
+C. 1000
+D. 10000
+ANSWER: D
+
+If the number of nichrome fuse links in PAL are equal to 2M xn, then what does 'n' represent in it?
+A. Number of inputs
+B. Number of arrays
+C. Number of outputs
+D. Number of product terms
+ANSWER: D
+
+Which among the following are used in programming array logic (PAL) for reducing the loading on inputs?
+A. Input buffers
+B. Output buffers
+C. OR matrix
+D. AND matrix
+ANSWER: A
+
+Which gates are used on the output side as buffers in order to provide a programmable output polarity in PAL 16 P8 devices?
+A. AND
+B. OR
+C. EX-OR
+D. NAND
+ANSWER: C
+
+The ability of HDL to describe the performance specification of a circuit is regarded as ____
+A. Test case
+B. System case
+C. Mark bench
+D. Test bench
+ANSWER: D
+
+What does an entity specify in the VHDL program format?
+A. List of all libraries associated with the design
+B. Code properties of VHDL
+C. Input/output pins of the circuit
+D. The behaviour of circuit
+ANSWER: C
+
+Which among the following is the correct way of declaring the standard library in VHDL?
+A. std.standard_all
+B. std_standard.all
+C. standard_std_all
+D. std.standard.all
+ANSWER: A
+
+Which mode in VHDL allows to make the signal assignments to a port of mode out by preventing it from reading?
+A. In
+B. Out
+C. Inout
+D. Buffer
+ANSWER: C
+
+Which among the following state machine notations are generated outside the sequential circuits?
+A. Input variables
+B. Output variables
+C. State variables
+D. Excitation variables
+ANSWER: A
+
+What would happen, if smaller logic modules are utilized for performing logical functions associated with FPGA?
+  a. Propagation delay will increase
+  b. FPGA area will increase
+  c. Wastage of logic modules will not be prevented
+  d. Number of interconnected paths in device will decrease
+A. a & b
+B. c & d
+C. a & d
+D. b & c
+ANSWER: A
+
+Which type of architectural modeling style describes the internal design details in the form of a set representing the interconnected components?
+A. Dataflow
+B. Behavioral
+C. Structural
+D. Mixed
+ANSWER: C
+
+The mechanism of 'Bushing' specifically refers to the addition of __________ in the state diagram
+A. Nodes
+B. Branches
+C. Loops
+D. States
+ANSWER: B
+
+What do the Programmable Logic Devices (PLDs) designed specially for the combinational circuits comprise?
+A. Only gates
+B. Only flip flops
+C. Both a and b
+D. None of the above
+ANSWER: A
+
+Which among the following is not a type of concurrent statement?
+A. Simple signal assignment
+B. Selected signal assignment
+C. Generate statement
+D. Direct Instantiation
+ANSWER: D
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
